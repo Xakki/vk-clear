@@ -168,4 +168,4 @@ var fogetVk = function() {
 	return init();
 }
 
-fogetVk().init();
+fogetVk();
