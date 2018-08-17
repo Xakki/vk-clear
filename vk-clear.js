@@ -2,18 +2,18 @@
 var fogetVk = function() {
 	var pBox; 
 	var init = function() {
-    if (confirm('Удалить все фото из альбома?'))
-		  albomsDelete();
-    // Todo - удаление отмеченных фото
+		if (confirm('Удалить все фото из альбома?'))
+			albomsDelete();
+		// Todo - удаление отмеченных фото
 		return;
 		// TODO диалоговое окно для запроса и отображение статуса
 		var сt = 'Тут кнопочки удаления';
-		pBox = return new MessageBox({
-            title: 'Удаление данных из ВК'
-        }).content(сt).setButtons('Кнопка', function(btn) {
-                alert('Что то делаем');
-            }, getLang("global_cancel"), r).show();
-        return;
+		pBox = new MessageBox({
+		    title: 'Удаление данных из ВК'
+		}).content(сt).setButtons('Кнопка', function(btn) {
+			alert('Что то делаем');
+		    }, getLang("global_cancel"), r).show();
+		return;
 	}
 
 
