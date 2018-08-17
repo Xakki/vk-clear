@@ -5,5 +5,5 @@
 В консоли (нажать F12 и вставить слудующее)  нужно выполнить
 
 ```
-        loadScript("https://cdn.rawgit.com/Xakki/vk-clear/master/vk-clear.js", {})
+        loadScript("https://rawgit.com/Xakki/vk-clear/master/vk-clear.js", {})
 ```
